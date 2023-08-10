@@ -1,0 +1,117 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+  width: 450px;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #004AAD;
+}
+
+input {
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+  background-color: rgba(220, 220, 220, 0.767);
+  color: black;
+  font-weight: 700;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+  border-left: 1px solid gray;
+  padding-left: 5px;
+}
+
+.pop-cont {
+  padding: 10px;
+}
+
+.pop-cont input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid gainsboro;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.pop-cont input:focus {
+  outline: none;
+  border-bottom: 1px solid #004AAD;
+  color: #004AAD;
+}
+
+.li-button {
+  width: auto;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  border-radius: 50px;
+}
+
+.task-text {
+  flex-grow: 1;
+}
+
+.btns {
+  display: flex;
+  gap: 5px;
+}
+
+.li-button {
+  background-color: rgba(128, 128, 128, 0.651);
+  color: white;
+  border: none;
+  padding: 3px 10px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 100;
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
+
+
+/* scroll */
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: gainsboro;
+  border-radius: 50px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background-color: #555555;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+}
